@@ -17,6 +17,12 @@ require('plugins.dnvimdashboard')
 require('plugins.themes')
 require('plugins.sttuslinenvim')
 
+-- lg/lsp
+require('plugins.mason-global')
+require('plugins.mason-lg')
+require('plugins.l-lspzero')
+require('plugins.lsplightbulbdeltanvim')
+
 --plugins
 require('plugins.toggleterminal')
 require('plugins.tree')
@@ -30,9 +36,4 @@ require('plugins.nulllsnvim')
 require('plugins.peekdeltanvim')
 require('plugins.cmp')
 
--- lg/lsp
-require('plugins.mason-global')
-require('plugins.mason-lg')
-require('plugins.l-lspconfig')
-require('plugins.l-lspzero')
-require('plugins.lsplightbulbdeltanvim')
+
