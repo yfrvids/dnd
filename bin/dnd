@@ -1,2 +1,2 @@
 #!/bin/sh
-NVIM_APPNAME="DeltanvimDocs" nvim "$@"
+NVIM_APPNAME="dnd" nvim "$@"

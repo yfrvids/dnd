@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Crear directorio de configuración
-CONFIG_DIR="$HOME/.config/DeltanvimDocs"
+CONFIG_DIR="$HOME/.config/dnd"
 mkdir -p "$CONFIG_DIR"
 
 # Copiar archivos necesarios

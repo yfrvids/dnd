@@ -1,5 +1,5 @@
 # Definir la ruta de configuración
-$configDir = "$env:LOCALAPPDATA\DeltanvimDocs"
+$configDir = "$env:LOCALAPPDATA\dnd"
 
 # Crear el directorio de configuración
 if (-not (Test-Path $configDir)) {
