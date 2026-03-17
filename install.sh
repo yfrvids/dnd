@@ -10,11 +10,11 @@ cp -r lua "$CONFIG_DIR"
 cp -r bin "$CONFIG_DIR"
 
 # Hacer ejecutable el script
-chmod +x "$CONFIG_DIR/bin/dnvimdocs"
+chmod +x "$CONFIG_DIR/bin/dnd"
 
 # Agregar al PATH
 if [[ ":$PATH:" != *":$CONFIG_DIR/bin:"* ]]; then
   echo 'export PATH="$PATH:'"$CONFIG_DIR/bin"'"' >> ~/.bashrc
   echo 'export PATH="$PATH:'"$CONFIG_DIR/bin"'"' >> ~/.zshrc
-  echo "DeltanvimDocs has been added to your PATH. Please restart your terminal."
+  echo "dnd (DeltanvimDocs) has been added to your PATH. Please restart your terminal."
 fi
