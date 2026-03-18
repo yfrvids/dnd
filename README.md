@@ -46,6 +46,7 @@
     - **Linux (Arch Linux)**
         ```sudo pacman -S neovim```
 - **texlive-latex**
+    From .tex files to .pdf files
     - **Linux(Debian)**
         - From synaptic install `texlive-latex-base`, `texlive-base`, `texlive-binaries`
 # Usage
