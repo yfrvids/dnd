@@ -1,34 +1,9 @@
-<img src=".github/socialpreview.png" />
-
-<div align="center">
-  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/yofreOrmaza/DeltaNvim/main?style=for-the-badge&color=%23FF0B30">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/yofreOrmaza/DeltaNvim?style=for-the-badge&color=%23FF0B30">
-  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/yofreOrmaza/DeltaNvim?display_name=tag&style=for-the-badge&color=%23FF0B30">
-</div>
-<br>
-
-<img src="https://github.com/user-attachments/assets/67f37cd2-eac0-4880-bbf2-8ea52e3fe4d1" width="100%" />
-
-<br>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/b105586a-0f03-4da9-b1c5-6d3d14e1b797" width="100%"/>
-  <img src="https://github.com/user-attachments/assets/644d83f0-166b-4af9-aefd-ef8a995f9947" width="100%" />
-</div>
-<br>
-
 ## Table
 
 [Requirements](#requirements)<br>
 [Usage](#usage)<br>
 [Features](#features)<br>
 [Errors](#errors)
-
-## 🧠 Animation of a moving sine wave ∿👨‍💻 with Copilot enabled in DeltaNvim
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/f066358e-77f8-4101-9eaf-7131f9426af0" width="65%" />
-</div>
 
 
 # Requirements:
@@ -79,7 +54,7 @@
   <summary>🖥️ Windows</summary>
 
   - **Clone the repository** to the location ```AppData/Local/```
-  - From the terminal, **go to the AppData/Local/DeltaNvim/ folder**
+  - From the terminal, **go to the AppData/Local/dnd/ folder**
   - **Give permissions** to the install.ps1 file with ```Set-ExecutionPolicy Bypass -Scope Process -Force```, and **execute it** with ```.\install.ps1```
   - Restart the terminal
 
@@ -89,7 +64,7 @@
   <summary>💻 Linux</summary>
 
   - **Clone the repository** to the location ```.config/```
-  - From the terminal, **go to the .config/DeltaNvim/ folder**
+  - From the terminal, **go to the .config/dnd/ folder**
   - **Give permissions** to the install.sh file with ```chmod +x install.sh```, and **execute it** with ```./install```
   - Restart the terminal
   
@@ -97,31 +72,30 @@
 
 </details>
 
----
+<!--
 
 ## Install additional config requirements
 
 ### Linux (Ubuntu/Debian)
 - Install the Python venv module `sudo apt install python3.yourCurrentPythonVersion-venv`
-- Create the virtual environment inside the DeltaNvim folder: `python3 -m venv env` 
+- Create the virtual environment inside the dnd folder: `python3 -m venv env` 
 - Activate the virtual environment `source env/bin/activate`
 - Install additional requirements `pip install -r requirements.txt`
 
+-->
+
 ---
 
-- In the windows terminal **enter DeltaNvim** using ```dnvim```
-- To **find the configuration folder for DeltaNvim** type from neovim ```:echo stdpath('config')```
+- In the windows terminal **enter dnd** using ```dnd```
+- To **find the configuration folder for dnd** type from neovim ```:echo stdpath('config')```
 - **Recommended font:** In the fonts folder there is a set of JetBrains fonts, from File Explorer select all fonts and right click on install. Then from the windows console configuration (powershell or cmd) go to the Profiles section and select Defaults, then select Appearance, and in the Font face box select a JetBrains font (**JetBrainsMono Nerd Font Mono** as a personal recommendation) **This font allows the display of icons for both folders and file type, and also for special characters** that aesthetically improve the visualization of the code. And finally click on save.
 
 # Features
 
-## DeltanvimDocs
+## dnd (DeltanvimDocs)
 
 - **Compile .tex files** with `pdflatex fileName.tex`
 - **View pdf file which was compiled** with `zathura fileName.pdf` (zathura/okular/firefox/etc)
-
-## Deltanvim
-
 - **Integrated terminal** with <kbd>Ctrl</kbd> + <kbd>j</kbd>
 - **LSP server manager**, **DAP servers**, **linters** and **formatters** with ```:Mason```
 - A **file explorer tree** with <kbd>Ctrl</kbd> + <kbd>b</kbd>
@@ -143,7 +117,7 @@
     $E = mc^2$
     
 <!-- - **Live server for Markdown files** 📝 with ```:MarkdownPreview```
-- **REPL interactive in DeltaNvim** 👨‍💻
+- **REPL interactive in dnd** 👨‍💻
     - windows (install wezterm terminal with Chocolatey in ADMIN modo ```choco install wezterm -y``` o desde su [sitio web](https://wezterm.org/))
     
     ### this configuration can be good for linux systems, because tmux is available on that operating system, so the default terminal would be tmux
@@ -164,9 +138,9 @@
 Error executing Lua callback: Vim:E475: Invalid value for argument cmd: 'deno' is not executable 
 stack traceback:                                                                                                    
         [C]: in function 'jobstart'                                                                                 
-        ...e/.local/share/DeltaNvim/lazy/peek.nvim/lua/peek/app.lua:53: in function 'init'                          
-        .../.local/share/DeltaNvim/lazy/peek.nvim/lua/peek/init.lua:23: in function 'open'                          
-        .../.local/share/DeltaNvim/lazy/peek.nvim/lua/peek/init.lua:113: in function <.../.local/share/DeltaNvim/lazy/peek.nvim/lua/peek/init.lua:104>
+        ...e/.local/share/dnd/lazy/peek.nvim/lua/peek/app.lua:53: in function 'init'                          
+        .../.local/share/dnd/lazy/peek.nvim/lua/peek/init.lua:23: in function 'open'                          
+        .../.local/share/dnd/lazy/peek.nvim/lua/peek/init.lua:113: in function <.../.local/share/dnd/lazy/peek.nvim/lua/peek/init.lua:104>
 ```
 
 **¿Cuando ocurre?<br>**
@@ -192,14 +166,14 @@ Ocurre cuando se quiere inicar el server de markdown mediante el comando :PeekOp
 </details>
 
 <details>
-<summary>Error: Peek error: error: Module not found "file:///home/yourUser/.local/share/DeltaNvim
+<summary>Error: Peek error: error: Module not found "file:///home/yourUser/.local/share/dnd
 /lazy/peek.nvim/public/main.bundle.js".                                         
 Press ENTER or type command to continue</summary><br>
 
 **Solution:***<br>
 
-1. Dirigirse al directorio peek.nvim mediante: ```cd ~/.local/share/DeltaNvim/lazy/peek.nvim```
+1. Dirigirse al directorio peek.nvim mediante: ```cd ~/.local/share/dnd/lazy/peek.nvim```
 
 2. Dentro del directorio peek.nvim ejecutar el siguiente comando: ```deno task --quiet build:fast```
 
-3. Reinstalar peek ingresando a DeltaNvim mediante el comando ```dnvim``` en la terminal mediante el comando ```:Lazy```
+3. Reinstalar peek ingresando a dnd mediante el comando ```dnvim``` en la terminal mediante el comando ```:Lazy```
