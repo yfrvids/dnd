@@ -53,7 +53,7 @@
       - Descargar la versión .appimage [neovim releases](https://github.com/neovim/neovim/releases/)
       - Dar permisos: ```chmod u+x nvim-linux-x86_64.appimage```
       - Dar permisos 2: ```chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage```
-      - Mover appimage: ```sudo mv ./nvim-linux-x86_64.appimage /usr/local/bin/nvim``
+      - Mover appimage: ```sudo mv ./nvim-linux-x86_64.appimage /usr/local/bin/nvim```
 
 - **texlive-latex**
     From .tex files to .pdf files
